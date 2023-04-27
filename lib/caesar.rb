@@ -27,5 +27,3 @@ def caesar(word, shift)
   result = array.map { |letter| shift_letter(letter, shift) }
   result.join('')
 end
-
-puts caesar('What a string!', 5) # => "Bmfy f xywnsl!"
